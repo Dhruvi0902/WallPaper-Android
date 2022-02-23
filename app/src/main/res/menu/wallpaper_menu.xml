@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/wallpaper"
+        android:title="@string/wallpaper" />
+    <item android:id="@+id/lockScreen"
+        android:title="@string/lock_screen" />
+    <item android:id="@+id/both"
+        android:title="@string/lock_and_home" />
+</menu>

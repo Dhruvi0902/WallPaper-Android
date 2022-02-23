@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/collectionTab"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/tabHomeIv"
+        android:src="@drawable/ic_collection"
+        android:tint="@color/colorAccent"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/collectionNameTv"
+        android:layout_marginStart="8dp"
+        android:visibility="gone"
+        android:text="@string/collection_list"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
